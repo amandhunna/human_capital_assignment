@@ -1,0 +1,86 @@
+.drag-drop-zone {
+  text-align: center;
+}
+.drag-drop-zone p {
+  color: #fff;
+}
+.drag-drop-zone.inside-drag-area {
+  opacity: 0.7;
+}
+.dropped-files li {
+  color: #07f;
+  padding: 3px;
+  text-align: left;
+  font-weight: bold;
+}
+
+.board {
+  display: flex;
+  overflow: scroll;
+  height: 92%;
+}
+
+.list {
+  background: azure;
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  margin: 1rem;
+  min-height: 10%;
+  min-width: 18%;
+  padding-inline-start: 0;
+  padding: 0.6rem;
+}
+
+.listHeader {
+  display: flex;
+  color: black;
+  font-weight: 600;
+}
+
+.listCards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-inline-start: 0px;
+  margin-left: -3%;
+}
+.card {
+  background: darkturquoise;
+  padding: 0.3rem;
+  margin: 0.3rem 0;
+  width: 90%;
+  height: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.cardDescription {
+}
+
+.cardMetaData {
+  display: flex;
+  justify-content: space-between;
+}
+.card-label {
+  background: burlywood;
+  font-size: 0.8rem;
+  padding: 0.2rem;
+  font-weight: 600;
+  border-radius: 15%;
+  margin-right: 0.5rem;
+}
+
+.card-user {
+  background: #fff;
+  padding: 0.2rem;
+  border-radius: 50%;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.activeZone {
+  border: 1px solid fuchsia;
+}
